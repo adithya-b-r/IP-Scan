@@ -15,7 +15,7 @@ URip=$(curl -s https://ipinfo.io/ip)
 main(){
 echo ""
 echo ""
-read -p $'      \e[93mPaste or enter IP address\e[0m \e[91m:\e[0m ' addr
+read -p $'          \e[93mPaste or enter IP address\e[0m \e[91m:\e[0m ' addr
 ipscan
 }
 
